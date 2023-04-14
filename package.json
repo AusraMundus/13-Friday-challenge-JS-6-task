@@ -1,0 +1,23 @@
+{
+  "name": "13-friday-challenge-js-6-task",
+  "version": "1.0.0",
+  "description": "Friday challenge JS",
+  "main": "index.js",
+  "scripts": {
+    "07-uzduotis": "nodemon ./js/07-uzduotis.js",
+    "06-uzduotis": "nodemon ./js/06-uzduotis.js",
+    "05-uzduotis": "nodemon ./js/05-uzduotis.js",
+    "04-uzduotis": "nodemon ./js/04-uzduotis.js",
+    "03-uzduotis": "nodemon ./js/03-uzduotis.js",
+    "02-uzduotis": "nodemon ./js/02-uzduotis.js",
+    "01-uzduotis": "nodemon ./js/01-uzduotis.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ausra <munduswebstudio@gmail.com> (https://github.com/AusraMundus)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
