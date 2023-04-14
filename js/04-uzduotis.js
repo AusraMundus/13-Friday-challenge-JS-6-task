@@ -14,13 +14,13 @@ sNum = num.toString();*/
 //3. Isrinkti lyginius ir nelyginius skaicius
 
 function number (num) {
-    let tekstas = num.toString();
-    let even = 0;
-    let odd = 0;
-    for (let i = 0; i < tekstas.length; i++) {
-        if (tekstas[i] % 2 === 0) {
+    let skaiciuSeka = num.toString(); // skaiciu seka paverciam i stringa
+    let even = 0; // lyginiai
+    let odd = 0; // nelyginiai
+    for (let i = 0; i < skaiciuSeka.length; i++) { // sukam per visus skaicius
+        if (skaiciuSeka[i] % 2 === 0) { // jei lyginiai, atiduok visus lyginius
             even++;
-        } else {
+        } else { // jei nelyginiai, atiduok visus nelyginius
             odd++;
         }
     }
